@@ -40,4 +40,7 @@ $(document).ready(function(){
       $(this).remove();
       });
 
+// hides both elements at the same time after 400 milliseconds
+    $("h2,p").hide(4000);
+
   });
